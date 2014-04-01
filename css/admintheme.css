@@ -1,0 +1,439 @@
+/* 
+    Document   : style
+    Created on : Jan 24, 2014, 10:13:20 PM
+    Author     : marqpat
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+   background: #FFF;
+}
+
+.main { 
+    padding-top: 150px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(34, 23, 25, 0.15);
+-moz-box-shadow:    0px 10px 15px 0px rgba(34, 23, 25, 0.15);
+box-shadow:         0px 10px 15px 0px rgba(34, 23, 25, 0.15);
+}
+
+.isiContent{
+    margin-top: 80px;
+    min-height: 600px;
+}
+
+.menuSidebar{
+    margin-top: 80px;
+    height: 100%;
+    
+    
+}
+
+.navbar-brand {
+    
+    padding-top: 25px;
+}
+
+.navbar-default .navbar-brand {
+    color:#FFF;
+}
+
+
+
+
+.head{
+    background: #40B3DF;
+   /* position: fixed;
+    top: 0px;*/
+    z-index: 99;
+    width: 1000px;
+}
+
+.head .logo{
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-inner {
+    padding-bottom: 0px;
+    background-color: #fafafa;
+    background-image: -moz-linear-gradient(top, #A8CB17, #A8CB17);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A8CB17), to(#A8CB17));
+    background-image: -webkit-linear-gradient(top, #A8CB17, #A8CB17);
+    background-image: -o-linear-gradient(top, #A8CB17, #A8CB17);
+    background-image: linear-gradient(to bottom, #A8CB17, #A8CB17);
+    background-repeat: repeat-x;
+    border-top: 1px solid #A8CB17;
+    border-left: 1px solid #A8CB17;
+    border-right: 1px solid #A8CB17;
+    border-bottom: 1px solid rgba(34, 23, 25, 0.34);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(34, 23, 25, 0.15);
+-moz-box-shadow:    0px 10px 15px 0px rgba(34, 23, 25, 0.15);
+box-shadow:         0px 10px 15px 0px rgba(34, 23, 25, 0.15);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.navbar .nav > li > a > span {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #EEE;
+}
+.navbar .nav > li > a > strong {
+    display: block;
+    text-align: center;
+     color: #FFF;
+}
+
+.navbar .nav > li > a  {
+    text-shadow: none;
+   
+}
+
+.navbar .nav > li > a:hover  {
+    border-top: 5px solid #17649A;
+    line-height: 17px;
+    background-image: -moz-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9DC00B), to(#9DC00B));
+    background-image: -webkit-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: -o-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: linear-gradient(to bottom, #9DC00B, #9DC00B);
+   
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+ border-top: 5px solid #17649A;
+    line-height: 17px;
+    background-image: -moz-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9DC00B), to(#9DC00B));
+    background-image: -webkit-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: -o-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: linear-gradient(to bottom, #9DC00B, #9DC00B);
+}
+
+.bootstrap-widget-header {
+    background: -moz-linear-gradient(top, #40B3DF 0%, #17649A 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #40B3DF), color-stop(100%, #17649A));
+    background: -webkit-linear-gradient(top, #40B3DF 0%, #17649A 100%);
+    background: -o-linear-gradient(top, #40B3DF 0%, #17649A 100%);
+    background: -ms-linear-gradient(top, #40B3DF 0%, #17649A 100%);
+    background: linear-gradient(top, #40B3DF 0%, #17649A 100%);
+}
+
+.bootstrap-widget-header h3 {
+    text-shadow: none;
+    color: #FFF;
+}
+
+.bootstrap-widget {
+    -webkit-box-shadow: 7px 7px 15px 0px rgba(34, 23, 25, 0.15);
+-moz-box-shadow:    7px 7px 15px 0px rgba(34, 23, 25, 0.15);
+box-shadow:         7px 7px 15px 0px rgba(34, 23, 25, 0.15);
+}
+
+.navbar-default {
+    background-color: #A8CB17;
+}
+
+.opsi a{
+    float: right;
+    margin-top: -38px;
+}
+
+.opsi .isiOpsi{
+    display: none;
+}
+
+
+.navbar .nav > li > a > b {
+    display: none;
+}
+
+.badan{
+    background: #EEE;
+}
+
+.keteranganList{
+    border: 1px solid #EEE;
+    margin-bottom: 10px;
+}
+
+.keteranganList .isi{
+    border-right: 1px solid #EEE;
+    padding: 10px;
+}
+
+.selengkapnya{
+    margin-bottom: 0px;
+}
+
+.sidbar{
+    background: transparent;
+    border: 1px solid #EEE;
+}
+
+
+.sidbar li > a{
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid #EEE;
+    color: #696969;
+    
+}
+
+.sidbar li > a:hover{
+    border-left: 4px solid #9DC00B;
+    color: #9DC00B;
+}
+
+.sidbar h4{
+    background-image: -moz-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9DC00B), to(#9DC00B));
+    background-image: -webkit-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: -o-linear-gradient(top, #9DC00B, #9DC00B);
+    background-image: linear-gradient(to bottom, #9DC00B, #9DC00B);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+}
+
+#accordion .glyphicon { margin-right:10px; }
+.panel-collapse>.list-group .list-group-item:first-child {border-top-right-radius: 0;border-top-left-radius: 0;}
+.panel-collapse>.list-group .list-group-item {border-width: 1px 0;}
+.panel-collapse>.list-group {margin-bottom: 0;}
+.panel-collapse .list-group-item {border-radius:0;}
+
+.menuAtasSide{
+    padding: 20px;
+padding-left: 47px;
+background-color: #eee;
+margin: 0px;
+margin: -10px;
+margin-left: -25px;
+height: 60px;
+}
+
+.form-actions{
+    padding-top: 25px;
+}
+
+.redactor_editor, .redactor_editor:focus {
+    height: 400px;
+}
+
+
+/* border
+------------------------- */
+.border-kanan{
+    border-right: 1px solid #EEE;
+}
+.border-kiri{
+    border-left: 1px solid #EEE;
+}
+.border-atas{
+    border-top: 1px solid #EEE;
+}
+.border-bawah{
+    border-bottom: 1px solid #EEE;
+}
+
+
+/* Form Actions
+------------------------- */
+.form-actions{
+    min-height: 20px;
+padding: 19px;
+margin-bottom: 20px;
+background-color: #f5f5f5;
+border: 1px solid #e3e3e3;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* User Profile
+------------------------- */
+.userProfile{
+    text-align: center; margin-bottom: 10px;
+}
+
+.userProfile .detail{
+    background-color:#d9edf7; padding-left: 20px; padding-right: 20px; z-index: -99;height: 200px; margin-top: -50px;padding-top: 60px;text-align: center
+}
+
+/* bgUtama
+------------------------- */
+.bgUtama {
+background: transparent;
+color: #A8CB17;
+
+}
+.bgUtama i {
+    font-size: 35px;
+}
+.bgUtama strong {
+    font-size: 35px;
+    display: block;
+    color: #A8CB17;
+    margin-bottom: -10px
+}
+.bgUtama span {
+   color: #000;
+}
+
+
+
+
+/* ds button
+------------------------- */
+.ds-btn {background: #EEE;}
+.ds-btn li{ list-style:none; float:left; padding:10px; }
+.ds-btn li a span{padding-left:15px;padding-right:5px;width:100%;display:inline-block; text-align:left;}
+.ds-btn li a span small{width:100%; display:inline-block; text-align:left;}
+
+
+/* Login
+------------------------- */
+.login .page-header{
+     border-bottom: 1px solid #FFFFFF;
+    margin: 20px 0;
+    padding-bottom: 9px;
+    text-align: center;
+    color: #FFF;
+}
+
+.login .form-control {
+    border: 1px solid #D6D6D6;
+    border-radius: 0;
+    box-shadow: none;
+    height: 50px;
+    padding: 6px 15px;
+}
+
+.login .row {
+    background: #A8CB17;
+    padding: 20px 50px 20px 50px;
+    margin-top: 10px;
+     
+}
+
+.login .control-label {
+    display: none;
+}
+
+
+.login legend {
+    border: medium none;
+    color: #7F7F7F;
+    display: block;
+    font-size: 20px;
+    line-height: inherit;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.login .btn {
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    font-size: 21px;
+    
+}
+.login .checkbox {
+margin: 35px;
+margin-bottom: -25px;
+margin-top: 0px;
+color: seagreen;    
+}
+
+
+/* Logo
+------------------------- */
+
+.logo{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+   z-index: 99;
+  
+}
+
+.logo img{
+    width: 100px;
+    
+}
+
+/* elfinder
+------------------------- */
+
+
+/* Badger
+------------------------- */
+
+[class*="badger"] {
+    position: relative;
+    margin: 15px 0;
+    padding: 39px 19px 14px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+[class*="badger"]:after {
+    content: attr(data-badger);
+    position: absolute;
+    top: 0;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #999;
+    color: #fff;
+}
+
+.badger-left:after {
+    left: 0;
+    border-radius: 6px 0 6px 0;
+}
+
+.badger-right:after {
+    right: 0;
+    border-radius: 0 6px 0 6px;
+}
+
+.badger-danger:after {
+    background: #d9534f;
+}
+
+.badger-warning:after {
+    background: #f0ad4e;
+}
+
+.badger-success:after {
+    background: #5cb85c;
+}
+
+.badger-info:after {
+    background: #5bc0de;
+}
+
+.badger-inverse:after {
+    background: #222;
+}
+
+.mce-fullscreen{
+    z-index: 1050;
+}
